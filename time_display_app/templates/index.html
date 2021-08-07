@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Time Display</title>
+    {% load static %}
+    <link rel="stylesheet" href="{% static 'style.css' %}">   
+</head>
+<body>
+    <div id = "wrapper">
+        <h1> Time Display App </h1>
+        <div id = "content">
+            <h2>The current date is:</h2>
+            <p> {{date}} </p>
+            <h2>The current time is:</h2>
+            <p id ="time"> {{time}} </p>
+        </div>
+    </div>
+</body>
+</html>
