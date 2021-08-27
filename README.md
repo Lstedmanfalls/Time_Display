@@ -1,3 +1,2 @@
-<h1>Current time and date app template</h1>
-<p>Made with python and django</p>
+<h1>Template app for showing current date and time</h1>
 <img src="time_display.JPG">
